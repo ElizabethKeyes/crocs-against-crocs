@@ -1,0 +1,124 @@
+<!-- SECTION head and style tags -->
+<!-- #region -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>The Best Title</title>
+
+  <style>
+    .row div {
+      min-height: 100px
+    }
+
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+
+</head>
+<!-- #endregion -->
+
+<body class="debug container-fluid">
+
+  <!-- SECTION header -->
+  <header class="row bg-success sticky-top">
+    <div class="col">
+      <h1>LOGO AND TITLE</h1>
+    </div>
+    </section>
+  </header>
+
+  <main>
+
+    <!-- SECTION form and hero image -->
+    <!-- #region -->
+    <section class="row">
+      <div class="col-md-4">
+        <h6>Form heading</h6>
+        <img src="//placehold.it/360x502" alt="">
+      </div>
+    </section>
+    <!-- #endregion -->
+
+
+    <!-- SECTION offset card (features?) -->
+    <!-- #region -->
+    <section class="row bg-success text-light">
+      <div class="col-md-5">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias doloribus molestias, necessitatibus hic,
+          deleniti similique reprehenderit exercitationem quaerat animi amet, cumque id labore consequuntur nam vero
+          totam dicta obcaecati? Neque?</p>
+      </div>
+      <div class="col-md-6 bg-light text-dark shadow">
+        <p><i class="mdi mdi-apple"></i> Lorem ipsum dolor sit amet.</p>
+        <p><i class="mdi mdi-apple"></i> Lorem ipsum dolor sit amet.</p>
+        <p><i class="mdi mdi-apple"></i> Lorem ipsum dolor sit amet.</p>
+        <p><i class="mdi mdi-apple"></i> Lorem ipsum dolor sit amet.</p>
+        <p><i class="mdi mdi-apple"></i> Lorem ipsum dolor sit amet.</p>
+      </div>
+    </section>
+    <!-- #endregion -->
+
+
+    <!-- SECTION image and single testimonial -->
+    <!-- #region -->
+    <section class="row">
+      <div class="col-md-4">
+        <img src="//placehold.it/360x580" alt="">
+      </div>
+      <div class="col-md-7 d-flex flex-column justify-content-center">
+        <h1><i class="mdi mdi-check-circle text-success"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum earum aliquam saepe excepturi perspiciatis,
+          beatae, soluta illo, pariatur minima minus eius quisquam rerum assumenda consectetur error corrupti
+          dignissimos at quibusdam!</p>
+      </div>
+    </section>
+    <!-- #endregion -->
+
+    <!-- SECTION three review cards -->
+    <!-- #region -->
+    <section class="row justify-content-around bg-secondary">
+      <div class="col-md-3 bg-light">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente velit nam in.</p>
+        <p class="text-success">Reviewer</p>
+      </div>
+      <div class="col-md-3 bg-light">
+        <i class="mdi mdi-star-circle text-success display-6"></i>
+        <i class="mdi mdi-star-circle text-success display-6"></i>
+        <i class="mdi mdi-star-circle text-success display-6"></i>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus cum fugit similique?</p>
+      </div>
+      <div class="col-md-3 bg-light">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aut neque voluptatem.</p>
+      </div>
+    </section>
+    <!-- #endregion -->
+
+
+  </main>
+
+</body>
+
+</html>
