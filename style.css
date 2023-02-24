@@ -63,16 +63,12 @@
 
   .offset-container {
     position: relative;
-
-
   }
 
   .offset-card {
     position: absolute;
     right: 50px;
     bottom: -130px;
-
-
   }
 
   .my-form-animation {
