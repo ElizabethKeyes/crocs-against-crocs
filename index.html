@@ -22,7 +22,7 @@
       min-height: 100px
     } */
 
-    body.debug .container,
+    /* body.debug .container,
     body.debug .container-fluid {
       outline: 2px double blue;
       outline-offset: -2px;
@@ -36,7 +36,7 @@
     body.debug [class*="col-"] {
       outline: 2px dotted forestgreen;
       outline-offset: -3px;
-    }
+    } */
   </style>
 
 </head>
@@ -46,9 +46,11 @@
 
 
   <!-- SECTION header -->
-  <header class="row bg-success text-light sticky-top my-header">
-    <div class="col d-flex align-items-center">
+  <header class="row bg-success text-light sticky-top my-header justify-content-between">
+    <div class="col col-md-4">
       <h1 class="my-font"><img src="croc.svg" class="my-svg m-2">This is my title</h1>
+    </div>
+    <div class="col-md-1 d-flex align-items-center">
       <a href="#reviews" class="flex-fill text-end me-4 mb-0 d-none d-md-block text-light">Reviews</a>
     </div>
     </section>
@@ -60,7 +62,7 @@
     <!-- #region -->
     <section class="row hero-img">
       <div class="col-md-4 p-3 m-md-4">
-        <p class="text-light glass-card d-inline">Contact us</p>
+        <p class="text-light glass-card d-inline my-form-animation">Contact us</p>
         <!-- SECTION form -->
         <!-- #region -->
         <form class="bg-light p-3 mt-2 rounded my-form-animation">
@@ -88,11 +90,11 @@
             <label class="form-check-label" for="exampleCheck1">By checking this form you agree to anything we may
               decide at a later date.</label>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-outline-success">Submit</button>
         </form>
         <!-- #endregion -->
       </div>
-      <div class="col-md-5 d-none d-md-block mt-5 glass-card p-3 ms-5">
+      <div class="col-md-5 d-none d-md-block mt-5 glass-card p-3 ms-5 my-form-animation">
         <h3 class="text-light">Lorem ipsum dolor sit amet.</h3>
         <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
       </div>
@@ -109,7 +111,7 @@
           deleniti similique reprehenderit exercitationem quaerat animi amet, cumque id labore consequuntur nam vero
           totam dicta obcaecati? Neque?</p>
       </div>
-      <div class="col-md-6 bg-light text-dark shadow order-0 order-md-2 offset-card mb-3 m-md-0 p-3">
+      <div class="col-md-6 bg-light text-dark shadow order-0 order-md-2 offset-card my-3  m-md-0 p-3">
         <p><i class="mdi mdi-apple display-6"></i> Lorem ipsum dolor sit amet.</p>
         <p><i class="mdi mdi-apple display-6"></i> Lorem ipsum dolor sit amet.</p>
         <p><i class="mdi mdi-apple display-6"></i> Lorem ipsum dolor sit amet.</p>
@@ -125,12 +127,13 @@
       <div class="col-md-4 justify-content-center d-flex">
         <img class="mb-3" src="//placehold.it/360x580" alt="">
       </div>
-      <div class="col-md-7 d-flex flex-column justify-content-center">
+      <div class="col-md-7 d-flex flex-column justify-content-center p-3">
         <h1><i class="mdi mdi-check-circle text-success"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         </h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum earum aliquam saepe excepturi perspiciatis,
           beatae, soluta illo, pariatur minima minus eius quisquam rerum assumenda consectetur error corrupti
-          dignissimos at quibusdam!</p>
+          dignissimos at quibusdam! <br><button class="btn btn-success mt-2">Learn more</button></p>
+        <!-- TODO fix this button - needs to be further right -->
       </div>
     </section>
     <!-- #endregion -->
@@ -139,17 +142,17 @@
     <!-- #region -->
     <section id="reviews"
       class="row justify-content-around my-light-bg py-4 py-md-5 px-3 d-flex align-items-center review-row-height">
-      <div class="order-2 order-md-1 col-md-3 bg-light mb-4 mb-md-0 smaller-card p-3">
+      <div class="col-md-3 order-2 order-md-1 bg-light mb-4 mb-md-0 smaller-card p-3">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente velit nam in.</p>
         <p class="text-success">Reviewer</p>
       </div>
-      <div class="order-1 order-md-2 col-md-3 bg-light mb-4 mb-md-0 p-3 larger-card text-center">
+      <div class="col-md-3 order-1 order-md-2 bg-light mb-4 mb-md-0 p-3 larger-card text-center">
         <i class="mdi mdi-star-circle text-success display-6"></i>
         <i class="mdi mdi-star-circle text-success display-6"></i>
         <i class="mdi mdi-star-circle text-success display-6"></i>
         <p class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus cum fugit similique?</p>
       </div>
-      <div class="order-3 col-md-3 bg-light mb-md-0 smaller-card p-3">
+      <div class="col-md-3 order-3 bg-light mb-md-0 smaller-card p-3">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aut neque voluptatem.</p>
       </div>
     </section>
@@ -171,7 +174,6 @@
       <h4>Address, contact information, phone number, etc.</h4>
     </div>
   </footer>
-
 
 </body>
 
