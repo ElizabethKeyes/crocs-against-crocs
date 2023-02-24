@@ -14,9 +14,9 @@
   <title>The Best Title</title>
 
   <style>
-    .row div {
+    /* .row div {
       min-height: 100px
-    }
+    } */
 
     body.debug .container,
     body.debug .container-fluid {
@@ -63,19 +63,18 @@
 
     <!-- SECTION offset card (features?) -->
     <!-- #region -->
-    <section class="row bg-success text-light">
-      <div class="col-md-5">
+    <section class="row bg-success text-light offset-container p-3">
+      <div class="col-md-5 order-2 order-md-1">
         <h2>Lorem ipsum dolor sit amet.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias doloribus molestias, necessitatibus hic,
           deleniti similique reprehenderit exercitationem quaerat animi amet, cumque id labore consequuntur nam vero
           totam dicta obcaecati? Neque?</p>
       </div>
-      <div class="col-md-6 bg-light text-dark shadow">
-        <p><i class="mdi mdi-apple"></i> Lorem ipsum dolor sit amet.</p>
-        <p><i class="mdi mdi-apple"></i> Lorem ipsum dolor sit amet.</p>
-        <p><i class="mdi mdi-apple"></i> Lorem ipsum dolor sit amet.</p>
-        <p><i class="mdi mdi-apple"></i> Lorem ipsum dolor sit amet.</p>
-        <p><i class="mdi mdi-apple"></i> Lorem ipsum dolor sit amet.</p>
+      <div class="col-md-6 bg-light text-dark shadow order-0 order-md-2 offset-card mb-3 mb-md-0">
+        <p><i class="mdi mdi-apple display-6"></i> Lorem ipsum dolor sit amet.</p>
+        <p><i class="mdi mdi-apple display-6"></i> Lorem ipsum dolor sit amet.</p>
+        <p><i class="mdi mdi-apple display-6"></i> Lorem ipsum dolor sit amet.</p>
+        <p><i class="mdi mdi-apple display-6"></i> Lorem ipsum dolor sit amet.</p>
       </div>
     </section>
     <!-- #endregion -->
@@ -100,23 +99,23 @@
     <!-- SECTION three review cards -->
     <!-- #region -->
     <section class="row justify-content-around bg-secondary">
-      <div class="col-md-3 bg-light">
+      <div class="order-2 order-md-1 col-md-3 bg-light">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente velit nam in.</p>
         <p class="text-success">Reviewer</p>
       </div>
-      <div class="col-md-3 bg-light">
+      <div class="order-1 order-md-2 col-md-3 bg-light">
         <i class="mdi mdi-star-circle text-success display-6"></i>
         <i class="mdi mdi-star-circle text-success display-6"></i>
         <i class="mdi mdi-star-circle text-success display-6"></i>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus cum fugit similique?</p>
       </div>
-      <div class="col-md-3 bg-light">
+      <div class="order-3 col-md-3 bg-light">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aut neque voluptatem.</p>
       </div>
     </section>
     <!-- #endregion -->
 
-    <section class="row bg-success text-light text-center">
+    <section class="row bg-success text-light">
       <div class="col">
         <h1>Lorem ipsum dolor sit amet.</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis rem itaque cupiditate.</p>
@@ -126,8 +125,8 @@
   </main>
 
   <footer class="row text-success text-center footer">
-    <div class="col d-flex align-items-center">
-      <p>Address, contact information, phone number, etc.</p>
+    <div class="col text-center">
+      <h4>Address, contact information, phone number, etc.</h4>
     </div>
   </footer>
 
