@@ -1,3 +1,42 @@
+.my-header {
+  min-height: 10vh;
+}
+
+.hero-img {
+  background-image: url("https://images.unsplash.com/photo-1605649461784-7d5e4df56c97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+}
+
+.glass-card {
+  background-color: rgba(0, 0, 0, 0.299);
+  border-radius: 5px;
+  padding: .25em;
+  max-height: 10vh;
+}
+
+.message-input {
+  min-height: 6em;
+}
+
+.larger-card {
+  min-height: 25vh;
+}
+
+.smaller-card {
+  max-height: 20vh;
+}
+
+.my-light-bg {
+  background-color: #eaeaea;
+}
+
+.review-row-height {
+  min-height: 45vh;
+}
+
+
 @media (min-width: 768px) {
 
   .offset-container {
