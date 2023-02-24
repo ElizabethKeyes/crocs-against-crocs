@@ -1,3 +1,11 @@
+.my-svg {
+  max-height: 75px;
+}
+
+.my-font {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
 .my-header {
   min-height: 10vh;
 }
@@ -13,7 +21,8 @@
   background-color: rgba(0, 0, 0, 0.299);
   border-radius: 5px;
   padding: .25em;
-  max-height: 10vh;
+  max-height: 18vh;
+  max-width: 30vw;
 }
 
 .message-input {
@@ -36,6 +45,19 @@
   min-height: 45vh;
 }
 
+.my-footer {
+  min-height: 10vh;
+}
+
+@keyframes form {
+  0% {
+    left: 0px;
+  }
+
+  100% {
+    left: 1000px;
+  }
+}
 
 @media (min-width: 768px) {
 
@@ -51,6 +73,14 @@
     bottom: -130px;
 
 
+  }
+
+  .my-form-animation {
+    animation-name: form;
+    position: relative;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-direction: reverse;
   }
 
 }

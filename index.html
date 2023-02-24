@@ -7,10 +7,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
   <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
     integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
   <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="croc.svg">
   <title>The Best Title</title>
 
   <style>
@@ -44,7 +48,7 @@
   <!-- SECTION header -->
   <header class="row bg-success text-light sticky-top my-header">
     <div class="col d-flex align-items-center">
-      <h1><i class="mdi mdi-google-downasaur mx-md-5 mx-3"></i>This is my title</h1>
+      <h1 class="my-font"><img src="croc.svg" class="my-svg m-2">This is my title</h1>
     </div>
     </section>
   </header>
@@ -58,7 +62,7 @@
         <p class="text-light glass-card d-inline">Contact us</p>
         <!-- SECTION form -->
         <!-- #region -->
-        <form class="bg-light p-3 mt-2 rounded">
+        <form class="bg-light p-3 mt-2 rounded my-form-animation">
           <h5 class="text-success">Talk to a croc today!</h5>
           <div class="mb-3">
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -87,7 +91,7 @@
         </form>
         <!-- #endregion -->
       </div>
-      <div class="col-md-5 d-none d-md-block mt-5 glass-card">
+      <div class="col-md-5 d-none d-md-block mt-5 glass-card p-3 ms-5">
         <h3 class="text-light">Lorem ipsum dolor sit amet.</h3>
         <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
       </div>
@@ -117,7 +121,7 @@
     <!-- SECTION image and single testimonial -->
     <!-- #region -->
     <section class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 justify-content-center d-flex">
         <img class="mb-3" src="//placehold.it/360x580" alt="">
       </div>
       <div class="col-md-7 d-flex flex-column justify-content-center">
@@ -134,17 +138,17 @@
     <!-- #region -->
     <section
       class="row justify-content-around my-light-bg py-4 py-md-5 px-3 d-flex align-items-center review-row-height">
-      <div class="order-2 order-md-1 col-md-3 bg-light mb-4 mb-md-0 smaller-card">
+      <div class="order-2 order-md-1 col-md-3 bg-light mb-4 mb-md-0 smaller-card p-3">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente velit nam in.</p>
         <p class="text-success">Reviewer</p>
       </div>
-      <div class="order-1 order-md-2 col-md-3 bg-light mb-4 mb-md-0 larger-card text-center">
+      <div class="order-1 order-md-2 col-md-3 bg-light mb-4 mb-md-0 p-3 larger-card text-center">
         <i class="mdi mdi-star-circle text-success display-6"></i>
         <i class="mdi mdi-star-circle text-success display-6"></i>
         <i class="mdi mdi-star-circle text-success display-6"></i>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus cum fugit similique?</p>
+        <p class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus cum fugit similique?</p>
       </div>
-      <div class="order-3 col-md-3 bg-light mb-md-0 smaller-card">
+      <div class="order-3 col-md-3 bg-light mb-md-0 smaller-card p-3">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aut neque voluptatem.</p>
       </div>
     </section>
@@ -152,7 +156,7 @@
 
     <!-- SECTION footers -->
 
-    <section class="row bg-success text-light">
+    <section class="row bg-success text-light p-3">
       <div class="col">
         <h1>Lorem ipsum dolor sit amet.</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis rem itaque cupiditate.</p>
@@ -161,8 +165,8 @@
 
   </main>
 
-  <footer class="row text-success text-center footer">
-    <div class="col text-center">
+  <footer class="row text-success text-center footer my-footer">
+    <div class="col d-flex align-items-center justify-content-center">
       <h4>Address, contact information, phone number, etc.</h4>
     </div>
   </footer>
