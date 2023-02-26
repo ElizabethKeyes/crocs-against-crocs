@@ -36,6 +36,7 @@
 .crocs-img {
   width: 80%;
   position: center;
+  border-radius: 5px;
 }
 
 
@@ -58,6 +59,7 @@
 .croc-vid {
   max-width: 100%;
   position: center;
+  border-radius: 5px;
 }
 
 .my-footer {
